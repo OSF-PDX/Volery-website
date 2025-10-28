@@ -1,0 +1,39 @@
+# The URL the site will be built for
+base_url = "https://OSF-PDX.github.io/Volery-website"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+default_language = "en"
+
+theme = "daisy"
+
+[search]
+# only this format is supported by the theme
+index_format = "elasticlunr_json"
+include_date =  true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+smart_punctuation = true #converts -- to em dash etc
+
+[extra]
+# Put all your custom variables here
+
+[extra.navbar]
+links = [
+    { url = '', i18n_key = "home"},
+    { url = "blog", i18n_key = "blog" },
+    { url = "get-started", i18n_key = "get_started" },
+    { url = "documentation", i18n_key = "docs" },
+]
+
+
+[extra.social]
+github = "https://github.com/OSF-PDX"
