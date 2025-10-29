@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://OSF-PDX.github.io/Volery-website"
 
+output_dir = "docs" #github pages only works with root or docs
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
