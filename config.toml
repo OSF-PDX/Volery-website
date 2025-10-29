@@ -15,6 +15,7 @@ theme = "daisy"
 # only this format is supported by the theme
 index_format = "elasticlunr_json"
 include_date =  true
+include_title = true
 
 [markdown]
 # Whether to do syntax highlighting
