@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://OSF-PDX.github.io/Volery-website/sitemap.xml

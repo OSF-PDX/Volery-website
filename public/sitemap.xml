@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://OSF-PDX.github.io/Volery-website/</loc>
+    </url>
+    <url>
+        <loc>https://OSF-PDX.github.io/Volery-website/blog/</loc>
+    </url>
+    <url>
+        <loc>https://OSF-PDX.github.io/Volery-website/blog/post/</loc>
+        <lastmod>2025-10-28</lastmod>
+    </url>
+    <url>
+        <loc>https://OSF-PDX.github.io/Volery-website/documentation/</loc>
+    </url>
+    <url>
+        <loc>https://OSF-PDX.github.io/Volery-website/get-started/</loc>
+    </url>
+</urlset>
