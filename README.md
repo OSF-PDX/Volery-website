@@ -16,4 +16,6 @@ Then to render the post run `zola build` in the repo directory and push the chan
 
 you can also colocate resources (if you want to include images)
 
-by instend creating `content/blog/mypost/index.md` and then including `content/blog/mypost/mypic.jpg`.
+by instead creating `content/blog/mypost/index.md` and then including `content/blog/mypost/mypic.jpg`.
+
+you can also include html in your markdown file and zola should just include it as is.
