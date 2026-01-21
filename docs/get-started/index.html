@@ -221,7 +221,20 @@
 </div>
 
 
-<p>This is the get started zone!</p>
+<h1 id="welcome">Welcome!</h1>
+<p>Volery is currently in the early stages of development! There are currently no demoes or complete versions to try out, but, you can always check out the latest work on the Github repositories!</p>
+<p>Volery is split into two parts, <a href="https://github.com/OSF-PDX/Volery-server">the server</a> and <a href="https://github.com/OSF-PDX/volery-client">the client</a>. You can download and try out the client, instructions are provided below, but check the repository for the most up to date directions.</p>
+<h1 id="the-client">The client</h1>
+<p>Our client is written using the Expo React Framework and uses WatermelonDB for local caching in the mobile app version. Currently, the front-end supports android and web. We use the Android Studio android phone emulator for our testing.</p>
+<h2 id="running-the-client">Running the client</h2>
+<ol>
+<li>download the <a href="https://github.com/OSF-PDX/volery-client">client repository</a></li>
+<li>make sure you have <code>npm</code> installed</li>
+<li>In the command line, navigate to the <code>expo-frontend</code> directory and run <code>npm install</code> to make sure all packages are installed, then run <code>npx  expo run</code> to build and emulate the app.</li>
+<li>when the front-end starts it will try to connect to the server on <code>localhost:3000</code> if it’s unable to connect it  will not  crash, it will simply do its fallback behavior.</li>
+</ol>
+<h1 id="the-server">The server</h1>
+<p>Our server is written in the Express framework and uses a Postgres database management system. Our current plan is to sync the Volery database with any backend a conference organizer is already using via an abstract interface to which a plug-in for any CRM or other data management system can be written. We are currently working on SalesForce support.</p>
 
 
 
