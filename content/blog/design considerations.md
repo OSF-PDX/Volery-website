@@ -1,6 +1,7 @@
 +++
 title = "Design considerations we're grappling with"
 date = 2026-01-21
+#updated = 
 authors = ["Violet Chan"]
 draft = false
 +++
