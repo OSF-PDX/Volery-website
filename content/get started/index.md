@@ -1,6 +1,7 @@
 +++
 title = "Get Started"
 updated = 2026-01-21
+authors = ["Violet Chan"]
 +++
 
 # Welcome!
