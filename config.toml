@@ -34,7 +34,7 @@ links = [
     { url = '', i18n_key = "home"},
     { url = "blog", i18n_key = "blog" },
     { url = "get-started", i18n_key = "get_started" },
-    { url = "documentation", i18n_key = "docs" },
+    # { url = "documentation", i18n_key = "docs" },
 ]
 
 
